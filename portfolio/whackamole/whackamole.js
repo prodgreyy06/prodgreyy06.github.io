@@ -9,8 +9,6 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-soundFormats('mp3');
-  bgMusic = loadSound('https://prodgreyy06.github.io/portfolio/funnel cake 157bpm @Greyy.mp3');
   img = loadImage('https://prodgreyy06.github.io/portfolio/gameimages/mole2.png');
     img2 = loadImage('https://prodgreyy06.github.io/portfolio/gameimages/guacamole.jpg');
       img3 = loadImage('https://prodgreyy06.github.io/portfolio/gameimages/mallet.png');
@@ -24,7 +22,6 @@ function setup() {
   createCanvas(600, 600);
   textAlign(CENTER);
   textSize(20);
-  bgMusic.setVolume(0.5);
 } // end setup
 
 
